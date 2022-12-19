@@ -1,7 +1,7 @@
 import customtkinter
 import signup
-from pymongo_test_insert import collection_name
-from pymongo_test_query import items_df
+from pymongo_setup import collection_name
+
 
 class App(customtkinter.CTk):
     def __init__(self):

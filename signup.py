@@ -1,6 +1,6 @@
 import customtkinter
-from pymongo_test_insert import collection_name
-import sys
+from pymongo_setup import collection_name
+
 class App(customtkinter.CTk):
     def __init__(self):
         super().__init__()
